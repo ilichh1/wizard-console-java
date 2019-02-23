@@ -18,7 +18,7 @@ import java.util.regex.Pattern;
 public class DataValidator {
     
     private static final String LOGIN = "wizard";
-    private static final String PASSWORD = "toystore";
+    private static final String PASSWORD = "1234";
     
     public static boolean validateCredentials(String login, String password) {
         if (login.equals(LOGIN) && password.equals(PASSWORD)) {
